@@ -41,3 +41,26 @@ nav img {
     margin-top: 10px;
     height: 50px;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/img-mission-background.png");
+    height: 700px;
+    width: 1200px;
+    margin: 70px auto;
+}
+
+#missionBar {
+    text-align: center;
+    background-color: black;
+    width: 1200px;
+    padding: 10px 10px;
+    line-height: 25px;
+}
+
+#missionBar h2 {
+    font-size: 30px;
+}
+

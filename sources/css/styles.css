@@ -3,7 +3,6 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: .9;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -62,5 +61,75 @@ main {
 
 #missionBar h2 {
     font-size: 30px;
+    margin: 10px;
 }
 
+#missionBar h4 {
+    margin: 10px;
+}
+
+#featured h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+#featured h4 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.featured-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.featured-pic {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 10px 10px 10px;
+}
+
+.featured-pic img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-pic h4 {
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url("./images/img-locations-background.png");
+    height: 500px;
+    width: 1200px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#l-title {
+    margin-top: 80px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.location {
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    flex-basis: 30px;
+    line-height: 40px;
+}

@@ -120,10 +120,11 @@ main {
     margin-right: auto;
 }
 
-#l-title {
+#l-title h2 {
     margin-top: 80px;
     margin-bottom: 15px;
     text-align: center;
+    font-size: 35px;
 }
 
 #container {
